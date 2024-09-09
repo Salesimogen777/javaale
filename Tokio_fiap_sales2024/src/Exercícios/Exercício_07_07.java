@@ -9,12 +9,20 @@ public class Exercício_07_07 {
 Scanner scanner = new Scanner(System.in);
 
 System.out.println("Digite a média dos seus alunos");
-int media = scanner.nextInt();
+double media = scanner.nextInt();
 
-for(  b)
-		
-		
-		
+
+double nota;
+
+do {
+System.out.println("Digite as notas dos alunos");
+nota = scanner.nextDouble();
+if(nota>media) {
+	System.out.println("Nota maior que a média");
+}else {
+	System.out.println("Nota menor que a média");
+}
+}while(true);
 		
 		
 		
